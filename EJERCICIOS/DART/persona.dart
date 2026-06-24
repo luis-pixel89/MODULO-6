@@ -3,10 +3,13 @@ class Persona{
   int edad=0;
   double? estatura;
 
-  Persona(String nombre, int edad, double estaturta){
+  /*Persona(String nombre, int edad, double estatura){
     this.nombre=nombre;
     this.edad=edad;
     this.estatura=estaturta;
+  }*/
+
+  Persona(this.nombre, this.edad, this.estatura){     //CONSTRUCTOR ABREVIADO
   }
 }
 
